@@ -10959,7 +10959,7 @@ html {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/fondo2.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11014,7 +11014,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/fondo1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11107,4 +11107,38 @@ footer.footer .social-link:hover {
   line-height: 7.5rem;
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.profile_img {
+    width: 180px;
+    height: 180px;
+    border-radius: 60%;
+    box-shadow: #babbbc;
+    object-fit: cover;
+    transition: transform 0.3 ease;
+}
+
+.btn-custom {
+    background-color: #9d7ba9;
+    background-image: linear-gradient(to right, #446557, #7cd4ca);
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    color: #fff;
+    border-radius: 25px;
+    transition: background 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 15px #d2e6ec;
+}
+.bg-image {
+    background-image: url("../assets/img/fondo7.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 20px 0;
+}
+
+.social-link {
+    color: white;
+    margin-right: 10px;
 }
